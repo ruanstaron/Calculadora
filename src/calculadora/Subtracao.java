@@ -9,7 +9,7 @@ package calculadora;
  *
  * @author Ruan
  */
-public class subtrair {
+public class Subtracao {
     public double subtrair(double a, double b){
         double resultado;
         resultado=a-b;

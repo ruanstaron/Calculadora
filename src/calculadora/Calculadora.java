@@ -61,7 +61,7 @@ public class Calculadora {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         soma resul=new soma();
-        subtrair resuls=new subtrair();
+        Subtracao resuls=new Subtracao();
         do{
             System.out.println("1-Soma, 2-Subtração, 3-Multiplicação, 4-Divisão, 5-IMC, 9-Sair\n");
             esc=scanner.nextInt();
