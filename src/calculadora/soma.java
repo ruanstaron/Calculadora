@@ -11,6 +11,8 @@ package calculadora;
  */
 public class soma {
     public double somar(double a, double b){
-        return a+b;
+        double resultado;
+        resultado=a+b;
+        return resultado;
     }
 }
