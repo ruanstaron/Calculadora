@@ -7,10 +7,6 @@ public class Calculadora {
     static double a;
     static double b;
     
-    static double multiplicar(double a, double b){
-        return a*b;
-    }
-    
     static double dividir(double a, double b){
         if(b==0){
             System.out.println("Impossível dividir por zero");
@@ -62,6 +58,7 @@ public class Calculadora {
         Scanner scanner = new Scanner(System.in);
         soma resul=new soma();
         Subtracao resuls=new Subtracao();
+        Multiplicacao resulm = new Multiplicacao();
         do{
             System.out.println("1-Soma, 2-Subtração, 3-Multiplicação, 4-Divisão, 5-IMC, 9-Sair\n");
             esc=scanner.nextInt();
@@ -76,7 +73,7 @@ public class Calculadora {
                     break;
                 case 3:
                     numeros();
-                    System.out.println(multiplicar(a,b));
+                    System.out.println(resulm.multiplicar(a,b));
                     break;
                 case 4:
                     numeros();
