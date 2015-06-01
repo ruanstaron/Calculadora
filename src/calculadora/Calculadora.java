@@ -42,7 +42,7 @@ public class Calculadora {
         }
     }
     
-    static String imc(double aa,double bb){
+    static void imc(double aa,double bb){
         double imc=aa/(bb*bb);
         if(imc<18.5){
             System.out.println("Você está abaixo do peso");
