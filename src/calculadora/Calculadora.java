@@ -54,13 +54,13 @@ public class Calculadora {
             System.out.println("Excesso de peso");
         }
         if(imc>=30 && imc<=34.9){
-            System.out.println("Obeso");
+            System.out.println("Gordo");
         }
         if(imc>=35 && imc<=39.9){
-            System.out.println("Perigo");
+            System.out.println("Baleia");
         }
         if(imc>=40){
-            System.out.println("Chances reais de morte");
+            System.out.println("Procure um médico");
         }
                 
     }
