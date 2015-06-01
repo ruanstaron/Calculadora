@@ -9,11 +9,10 @@ package calculadora;
  *
  * @author Ruan
  */
-public class Multiplicacao {
-    public double multiplicar(double a, double b){
+public class Soma {
+    public double somar(double a, double b){
         double resultado;
-        resultado=a*b;
+        resultado=a+b;
         return resultado;
     }
-    
 }

@@ -56,7 +56,7 @@ public class Calculadora {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        soma resul=new soma();
+        Soma resul=new Soma();
         Subtracao resuls=new Subtracao();
         Multiplicacao resulm = new Multiplicacao();
         do{
