@@ -6,10 +6,7 @@ public class Calculadora {
     static int esc;
     static double a;
     static double b;
-    static double somar(double a, double b){
-        return a+b;
-    }
-    
+        
     static double subtrair(double a, double b){
         return a-b;
     }
@@ -67,13 +64,14 @@ public class Calculadora {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        soma resul=new soma();
         do{
             System.out.println("1-Soma, 2-Subtração, 3-Multiplicação, 4-Divisão, 5-IMC, 9-Sair\n");
             esc=scanner.nextInt();
             switch(esc){
                 case 1:
                     numeros();
-                    System.out.println(somar(a,b));
+                    System.out.println(resul.somar(a,b));
                     break;
                 case 2:
                     numeros();
