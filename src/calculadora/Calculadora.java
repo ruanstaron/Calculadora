@@ -6,10 +6,6 @@ public class Calculadora {
     static int esc;
     static double a;
     static double b;
-        
-    static double subtrair(double a, double b){
-        return a-b;
-    }
     
     static double multiplicar(double a, double b){
         return a*b;
@@ -65,6 +61,7 @@ public class Calculadora {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         soma resul=new soma();
+        subtrair resuls=new subtrair();
         do{
             System.out.println("1-Soma, 2-Subtração, 3-Multiplicação, 4-Divisão, 5-IMC, 9-Sair\n");
             esc=scanner.nextInt();
@@ -75,7 +72,7 @@ public class Calculadora {
                     break;
                 case 2:
                     numeros();
-                    System.out.println(subtrair(a,b));
+                    System.out.println(resuls.subtrair(a,b));
                     break;
                 case 3:
                     numeros();
